@@ -4,13 +4,13 @@ body{
     font-size: 21px;
 }
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 0;
     font-weight: lighter;
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 42px;
     margin-bottom: 0;
     font-weight: lighter;
 }
@@ -58,33 +58,12 @@ a:hover {
     padding: 100px 0;
     background-color: #EAF9FF;
 }
-head{
-    background-color: white;
-    padding-left: 90px;
-    padding-right:  90px; 
-    padding-top: 90px;
-    padding-bottom: 90px;
 
-}
-small {
+small-text {
     font-size: 16px;
 }
 img{
     height: 305px;
     width: 295px;
     border-radius: 50px; ;
-}
-.button{
-    display: inline-block;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #99D930;
-    color: #252525;
-    text-decoration: none;
-}
-.button:hover ,.button:focus{
-    
-    background-color: #fff;
-    color: #252525;
 }
