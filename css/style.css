@@ -4,13 +4,13 @@ body{
     font-size: 21px;
 }
 h1 {
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 0;
     font-weight: lighter;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 60px;
     margin-bottom: 0;
     font-weight: lighter;
 }
@@ -26,14 +26,15 @@ h3 {
 }
 h1 .bold-text{
     font-size: 80px;
-    display: block;
+    
 }
 h2 .bold-text{
     font-size: 60px;
-    display: block;
+    
 }
 .bold-text{
     font-weight: bold;
+    display: block;
 }
 a {
     color: #99D930;
@@ -72,4 +73,18 @@ img{
     height: 305px;
     width: 295px;
     border-radius: 50px; ;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #99D930;
+    color: #252525;
+    text-decoration: none;
+}
+.button:hover ,.button:focus{
+    
+    background-color: #fff;
+    color: #252525;
 }
