@@ -1,7 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    font-weight: 500;
 }
 h1 {
     font-size: 80px;
@@ -25,8 +32,8 @@ h3 {
     
 }
 .container {
-    
-    margin: 0 auto;
+   
+    margin: 0 ;
     text-align: center;
     
 }
@@ -58,20 +65,20 @@ a:hover {
 }
 
 .about-me {
-    padding-top: 100px ;
-    padding-bottom: 100px ;
+    padding: 100px ;
+    
     background-color: #FFEAEA;
 }
 
 .articles {
-    padding-top: 100px ;
-    padding-bottom: 100px ;
+    padding: 100px ;
+    
     background-color: #252525;
     color: #fff;
 }
 
 .small {
-    margin-top: -40px;
+    margin-top: 0px;
     margin-bottom: 10px;
     color:#99D930;
 }
@@ -97,5 +104,5 @@ img{
 p{
     margin-bottom: 10px;
     font-size: 14px;
-   
+    
 }
