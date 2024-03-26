@@ -1,9 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 
-}
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +27,7 @@ h3 {
     
 }
 .container {
-   
+   width:100%;
     margin: 0 ;
     text-align: center;
     
@@ -76,9 +71,12 @@ a:hover {
     background-color: #252525;
     color: #fff;
 }
+p{
+    margin-bottom: 25px;   
+}
 
 .small {
-    margin-top: 0px;
+    margin-top: -40px;
     margin-bottom: 10px;
     color:#99D930;
 }
